@@ -1,0 +1,19 @@
+{
+	"sheets": [
+		{
+			"comment": "連結",
+			"target": {
+			    "name": "chain"
+			},
+		    "cells": [
+		        {"id": "values", "row": 2, "options": [{"type": "chain", "keyId": "key", "chainId": "chain"}],
+		            "columns": [
+		                {"id": "chain", "column": 4, "splitter": "\n", "always": false, "options": [{"type": "remove"}]},
+		                {"id": "key", "column": 2},
+		                {"id": "value", "column": 3}
+		            ]
+		        }
+		    ]
+		}
+	]
+}
