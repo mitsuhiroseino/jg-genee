@@ -18,6 +18,11 @@ abstract public class AbstractTableRangeDefinition<P extends TableDefinitionInte
 	implements TableCellDefinitionInterface<P, List<List<Object>>> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2224850970018031165L;
+
+	/**
 	 * 列数/行数の上限なし
 	 */
 	public static final int UNLIMITED = Integer.MAX_VALUE;

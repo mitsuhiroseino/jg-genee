@@ -19,6 +19,11 @@ import com.purejadeite.util.SimpleValidator;
  */
 public class ReplaceId extends AbstractTableOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1876340887267488493L;
+
 	protected static final String CFG_KEY_ID = "keyId";
 
 	protected static final String CFG_NEW_IDS = "newIds";

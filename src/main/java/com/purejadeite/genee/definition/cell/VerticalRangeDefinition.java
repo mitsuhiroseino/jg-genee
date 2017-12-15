@@ -13,6 +13,11 @@ import com.purejadeite.util.collection.Table;
 public class VerticalRangeDefinition extends AbstractRangeDefinition {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6609133231446358008L;
+	
+	/**
 	 * 終了行
 	 */
 	public static final String CFG_END_ROW = "endRow";

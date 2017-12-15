@@ -15,6 +15,11 @@ import com.purejadeite.genee.definition.table.CategoryDefinitionInterface;
 public class CategoryContent extends AbstractParentContent<ParentContentInterface<?, ?, ?>, ContentInterface<?, ?>, CategoryDefinitionInterface<?>>implements CategoryContentInterface {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -150934005461949528L;
+
+	/**
 	 * コンストラクタ
 	 */
 	public CategoryContent(ParentContentInterface<?, ?, ?> parent, CategoryDefinitionInterface<?> definition) {

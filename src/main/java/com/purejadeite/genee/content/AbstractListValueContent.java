@@ -16,6 +16,11 @@ abstract public class AbstractListValueContent<D extends CellDefinitionInterface
 		extends AbstractContent<ParentContentInterface<?, ?, ?>, D>implements CellContentInterface<ParentContentInterface<?, ?, ?>, D> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6905776496681767098L;
+	
+	/**
 	 * セルの値
 	 */
 	protected List<Object> values;

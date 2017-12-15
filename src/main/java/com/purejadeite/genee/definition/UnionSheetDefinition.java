@@ -15,6 +15,11 @@ import com.purejadeite.util.SimpleValidator;
 public class UnionSheetDefinition extends SheetDefinition {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8195689652400966805L;
+
+	/**
 	 * 必須項目名称
 	 */
 	private static final String[] CONFIG = { CFG_UNION };

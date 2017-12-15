@@ -18,6 +18,11 @@ import com.purejadeite.util.collection.Table;
 abstract public class AbstractParentContent<P extends ParentContentInterface<?, ?, ?>, C extends ContentInterface<?, ?>, D extends ParentDefinitionInterface<?, ?>>
 		extends AbstractContent<P, D>implements ParentContentInterface<P, C, D>, Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5728941278599940004L;
+
 	protected List<C> children;
 
 	protected Map<String, ContentInterface<?, ?>> cells = new HashMap<>();

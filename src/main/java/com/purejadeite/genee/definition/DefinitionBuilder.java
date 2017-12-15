@@ -233,14 +233,13 @@ public class DefinitionBuilder {
 	 *            複数Cell定義
 	 * @return Cellまたは複数Cell読み込み定義
 	 */
-	@SuppressWarnings("unchecked")
 	private static DefinitionInterface<?> createTableCell(Map<String, Object> config, SheetDefinition sheet,
 			ParentDefinitionInterface<?, ?> table) {
 		DefinitionInterface<?> definition = null;
 
 		if (AnchorTableCellDefinition.assess(config, table)) {
 			// アンカーの場合
-			definition = new AnchorTableCellDefinition((TableDefinitionInterface<?>) table, config);
+			definition = new AnchorTableCellDefinition<>((TableDefinitionInterface<?>) table, config);
 		} else if (JoinedTableCellDefinition.assess(config, table)) {
 			// 親のあるJOINフィールドの場合
 			definition = new JoinedTableCellDefinition(sheet, (TableDefinitionInterface<?>) table, config);

@@ -11,6 +11,11 @@ import com.purejadeite.genee.definition.ParentDefinitionInterface;
  */
 public class CategoryDefinition extends AbstractCategoryDefinition<DefinitionInterface<?>> {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8237291845407830306L;
+	
 	public static final String CFG_CELLS = "cells";
 
 	/**

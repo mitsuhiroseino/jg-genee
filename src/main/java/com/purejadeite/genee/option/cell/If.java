@@ -20,6 +20,11 @@ import com.purejadeite.util.SimpleValidator;
 public class If extends AbstactIf implements CellOptionInterface, Serializable {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1117363831796541233L;
+	
+	/**
 	 * 必須項目名称
 	 */
 	private static final String[] CONFIG = {};

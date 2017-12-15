@@ -16,6 +16,11 @@ import com.purejadeite.genee.option.table.TableOptionManager;
 abstract public class AbstractCategoryDefinition<C extends DefinitionInterface<?>> extends AbstractParentDefinition<ParentDefinitionInterface<?, ?>, C> implements CategoryDefinitionInterface<C> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3826055242574796490L;
+
+	/**
 	 * コンストラクタ
 	 *
 	 * @param parent

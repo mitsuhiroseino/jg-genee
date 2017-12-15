@@ -20,6 +20,11 @@ import com.purejadeite.util.collection.StringKeyNestedMap;
  */
 public class Branch extends AbstractTableOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3805549147837449805L;
+
 	protected static final String CFG_SEPARATOR = "separator";
 
 	/**

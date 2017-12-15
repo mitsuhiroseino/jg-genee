@@ -16,6 +16,11 @@ import com.purejadeite.genee.option.AbstractOption;
 abstract public class AbstractSheetOption extends AbstractOption implements SheetOptionInterface, Serializable {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4673665478166090604L;
+
+	/**
 	 * コンストラクタ
 	 */
 	public AbstractSheetOption(DefinitionInterface<?> definition) {

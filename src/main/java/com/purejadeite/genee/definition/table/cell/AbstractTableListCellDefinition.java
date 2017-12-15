@@ -15,6 +15,11 @@ import com.purejadeite.genee.definition.table.TableDefinitionInterface;
  */
 abstract public class AbstractTableListCellDefinition extends AbstractTableCellDefinition<TableDefinitionInterface<?>> {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5019322186721744570L;
+
 	protected static final String CFG_SPLITTER = "splitter";
 
 	/**

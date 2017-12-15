@@ -14,6 +14,11 @@ import com.purejadeite.genee.definition.table.TableDefinitionInterface;
 public class HorizontalTableListCellDefinition extends AbstractTableListCellDefinition {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4491748557534261045L;
+
+	/**
 	 * コンストラクタ
 	 *
 	 * @param parent

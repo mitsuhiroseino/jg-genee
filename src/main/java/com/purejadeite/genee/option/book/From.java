@@ -19,6 +19,11 @@ import com.purejadeite.util.SimpleValidator;
 public class From extends AbstractBookOption {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7423027913699410742L;
+	
+	/**
 	 * 必須項目名称
 	 */
 	private static final String[] CONFIG = { };

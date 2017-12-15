@@ -13,6 +13,11 @@ import com.purejadeite.util.collection.Table;
 public class AnchorCellDefinition extends AbstractNoAdressCellDefinition<ParentDefinitionInterface<?,?>, Object> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8714905578471879860L;
+
+	/**
 	 * コンストラクタ
 	 *
 	 * @param parent

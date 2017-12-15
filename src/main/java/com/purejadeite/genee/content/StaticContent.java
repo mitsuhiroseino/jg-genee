@@ -9,6 +9,11 @@ import com.purejadeite.genee.definition.cell.CellDefinitionInterface;
 public class StaticContent extends AbstractSingleValueContent<CellDefinitionInterface<?, ?>> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6994802245540048317L;
+
+	/**
 	 * コンストラクタ
 	 * @param parent 親コンテンツ
 	 * @param definition 定義

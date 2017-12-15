@@ -19,6 +19,11 @@ import com.purejadeite.genee.option.AbstractOption;
 abstract public class AbstractListCellOption extends AbstractOption implements ListCellOptionInterface, Serializable {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3818631779792783897L;
+
+	/**
 	 * コンストラクタ
 	 *
 	 * @param cell

@@ -17,6 +17,11 @@ import com.purejadeite.genee.definition.DefinitionInterface;
  */
 public class Convert extends AbstractStringCellOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6354888457620461346L;
+
 	private static final Pattern RE = Pattern.compile("^((0)|((-|)(0\\.[0-9]*[1-9])|((-|)[1-9][0-9]*(\\.[0-9]*[1-9])?)))$");
 
 	protected static final String CFG_NULL_VALUE = "nullValue";

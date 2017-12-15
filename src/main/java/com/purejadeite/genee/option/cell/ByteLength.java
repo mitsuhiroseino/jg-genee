@@ -16,6 +16,11 @@ import com.purejadeite.genee.definition.DefinitionInterface;
  */
 public class ByteLength extends AbstractStringCellOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7760427610936216547L;
+
 	private static final String CFG_ENCODE = "encode";
 
 	/**

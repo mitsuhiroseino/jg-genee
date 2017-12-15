@@ -17,6 +17,11 @@ import com.purejadeite.genee.option.AbstractOption;
 abstract public class AbstractBookOption extends AbstractOption implements BookOptionInterface, Serializable {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2367058643988632150L;
+
+	/**
 	 * コンストラクタ
 	 */
 	public AbstractBookOption(DefinitionInterface<?> definition) {

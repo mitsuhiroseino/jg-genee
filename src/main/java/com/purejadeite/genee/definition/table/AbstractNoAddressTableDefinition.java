@@ -16,6 +16,11 @@ import com.purejadeite.genee.option.table.TableOptionManager;
 abstract public class AbstractNoAddressTableDefinition<C extends TableCellDefinitionInterface<?, ?>> extends AbstractParentDefinition<ParentDefinitionInterface<?, ?>, C> implements TableDefinitionInterface<C> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2144205710973301009L;
+
+	/**
 	 * コンストラクタ
 	 *
 	 * @param parent

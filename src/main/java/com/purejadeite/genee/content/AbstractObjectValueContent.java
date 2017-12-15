@@ -14,6 +14,11 @@ abstract public class AbstractObjectValueContent<D extends CellDefinitionInterfa
 		extends AbstractContent<ParentContentInterface<?, ?, ?>, D>implements CellContentInterface<ParentContentInterface<?, ?, ?>, D> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3584107122787314388L;
+
+	/**
 	 * セルの値
 	 */
 	protected Object value;

@@ -15,6 +15,11 @@ import com.purejadeite.util.collection.Table;
 public class AnchorTableCellDefinition<P extends TableDefinitionInterface<?>> extends AbstractNoAdressTableCellDefinition<P, List<Object>> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6833110537549137518L;
+
+	/**
 	 * コンストラクタ
 	 *
 	 * @param parent

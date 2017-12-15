@@ -14,6 +14,11 @@ import com.purejadeite.genee.definition.DefinitionInterface;
  */
 abstract public class AbstractOption implements OptionInterface, Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4044262984405785267L;
+	
 	protected DefinitionInterface<?> definition;
 
 	/**

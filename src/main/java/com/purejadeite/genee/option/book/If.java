@@ -19,6 +19,11 @@ import com.purejadeite.util.SimpleValidator;
  */
 public class If extends AbstactIf implements BookOptionInterface, Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3144576022125478829L;
+	
 	protected static final String CFG_SHEET_ID = "sheetId";
 	protected static final String CFG_CELL_ID = "cellId";
 

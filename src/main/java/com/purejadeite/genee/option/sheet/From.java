@@ -16,6 +16,11 @@ import com.purejadeite.util.SimpleValidator;
  */
 public class From extends AbstractSheetOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6884996147340654028L;
+
 	protected static final String CFG_CELL_ID = "cellId";
 
 	/**

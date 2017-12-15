@@ -18,6 +18,11 @@ import com.purejadeite.util.SimpleValidator;
  */
 abstract public class AbstractPositionCellOption extends AbstractStringCellOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5883876318007710099L;
+
 	protected static final String CFG_SPLITTER = "splitter";
 
 	/**

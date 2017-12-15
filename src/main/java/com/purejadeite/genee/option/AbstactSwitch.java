@@ -19,6 +19,11 @@ import com.purejadeite.util.SimpleValidator;
 abstract public class AbstactSwitch extends AbstractOption {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8440166338455461218L;
+
+	/**
 	 * { "type": "switch", "cellId": "aaaaa", "cases": [ {"value": null,
 	 * "options": []}, {"value": "", "options": []}, {"value": "ArrayList<>();",
 	 * "options": []}

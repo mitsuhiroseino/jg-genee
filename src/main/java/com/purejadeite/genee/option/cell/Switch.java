@@ -22,6 +22,11 @@ import com.purejadeite.util.SimpleValidator;
  */
 public class Switch extends AbstactSwitch implements CellOptionInterface, Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2477353480689012545L;
+
 	protected static final String CFG_CELL_ID = "cellId";
 
 	/**

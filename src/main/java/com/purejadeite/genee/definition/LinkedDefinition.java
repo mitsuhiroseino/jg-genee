@@ -17,6 +17,11 @@ import com.purejadeite.util.SimpleValidator;
 public class LinkedDefinition extends AbstractDefinition<ParentDefinitionInterface<?, ?>> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 687551623066065782L;
+
+	/**
 	 * セルの結合
 	 */
 	public static final String CFG_LINK = "link";

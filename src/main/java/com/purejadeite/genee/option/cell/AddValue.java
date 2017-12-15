@@ -16,6 +16,11 @@ import com.purejadeite.genee.definition.DefinitionInterface;
  */
 public class AddValue extends AbstractListCellOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6313119770446060812L;
+
 	protected static final String CFG_UNIQUE = "unique";
 
 	protected static final String CFG_VALUE = "value";

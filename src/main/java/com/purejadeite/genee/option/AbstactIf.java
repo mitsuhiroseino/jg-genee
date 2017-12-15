@@ -18,6 +18,11 @@ import com.purejadeite.util.SimpleValidator;
  */
 abstract public class AbstactIf extends AbstractOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -9113122458074535055L;
+
 	protected static final String CFG_OPERATOR = "operator";
 
 	protected static final String CFG_VALUE = "value";

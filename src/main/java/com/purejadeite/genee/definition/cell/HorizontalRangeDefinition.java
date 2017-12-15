@@ -13,6 +13,11 @@ import com.purejadeite.util.collection.Table;
 public class HorizontalRangeDefinition extends AbstractRangeDefinition {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 864308966736735328L;
+	
+	/**
 	 * 終了列
 	 */
 	public static final String CFG_END_COLUMN = "endColumn";

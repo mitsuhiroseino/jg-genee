@@ -19,6 +19,11 @@ import com.purejadeite.util.SimpleValidator;
  */
 public class Follow extends AbstractTableOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 773577324637357082L;
+
 	protected static final String CFG_FOLLOW_ID = "followId";
 
 	/**

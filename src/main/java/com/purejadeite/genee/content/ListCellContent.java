@@ -12,6 +12,11 @@ import com.purejadeite.util.collection.Table;
 public class ListCellContent extends AbstractListValueContent<ListCellDefinition> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5646504213059791683L;
+
+	/**
 	 * コンストラクタ
 	 * @param parent 親コンテンツ
 	 * @param definition 定義

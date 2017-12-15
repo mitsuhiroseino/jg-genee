@@ -18,6 +18,11 @@ import com.purejadeite.genee.definition.DefinitionInterface;
  */
 abstract public class AbstractGenerator implements GeneratorInterface, Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3631475517259240749L;
+	
 	protected DefinitionInterface<?> definition;
 
 	/**

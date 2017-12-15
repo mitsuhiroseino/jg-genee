@@ -18,6 +18,11 @@ import com.purejadeite.util.collection.Table;
  */
 public class ListCellDefinition extends AbstractListDefinition {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5142549151145397063L;
+
 	protected static final String CFG_SPLITTER = "splitter";
 
 	/**

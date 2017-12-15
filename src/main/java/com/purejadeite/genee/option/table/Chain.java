@@ -22,6 +22,11 @@ import com.purejadeite.util.SimpleValidator;
  */
 public class Chain extends AbstractTableOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5612361248274579669L;
+
 	protected static final String CFG_KEY_ID = "keyId";
 
 	protected static final String CFG_CHAIN_ID = "chainId";

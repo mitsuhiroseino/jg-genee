@@ -17,6 +17,11 @@ import com.purejadeite.util.collection.Table;
  */
 public class LinkedContent extends AbstractContent<ParentContentInterface<?, ?, ?>, LinkedDefinition> {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -142345569452878163L;
+	
 	private static final Logger LOGGER = LoggerFactory.getLogger(LinkedContent.class);
 
 	public LinkedContent(ParentContentInterface<?, ?, ?> parent, LinkedDefinition definition) {

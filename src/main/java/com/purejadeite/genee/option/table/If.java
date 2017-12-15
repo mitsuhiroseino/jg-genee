@@ -22,6 +22,11 @@ import com.purejadeite.util.SimpleValidator;
  */
 public class If extends AbstactIf implements TableOptionInterface, Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2253235560833011854L;
+
 	protected static final String CFG_KEY_ID = "keyId";
 
 	/**

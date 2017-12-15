@@ -16,6 +16,11 @@ import com.purejadeite.util.EvaluationUtils;
  */
 public class Remove extends AbstractStringCellOption {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4853798385747422894L;
+
 	protected static final String CFG_OPERATOR = "operator";
 
 	protected static final String CFG_VALUE = "value";

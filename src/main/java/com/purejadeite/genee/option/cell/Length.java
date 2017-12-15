@@ -15,6 +15,11 @@ import com.purejadeite.genee.definition.DefinitionInterface;
 public class Length extends AbstractStringCellOption {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1084049540240579091L;
+
+	/**
 	 * コンストラクタ
 	 * @param cell 値の取得元Cell読み込み定義
 	 * @param config コンバーターのコンフィグ

@@ -12,6 +12,11 @@ import com.purejadeite.genee.definition.table.TableDefinitionInterface;
  */
 public class HorizontalTableRangeDefinition extends AbstractTableRangeDefinition<TableDefinitionInterface<?>> {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7230774130336168380L;
+	
 	public static final String CFG_END_COLUMN = "endColumn";
 
 	/**

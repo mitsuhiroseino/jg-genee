@@ -18,6 +18,11 @@ abstract public class AbstractRangeDefinition
 		extends AbstractCellDefinition<ParentDefinitionInterface<?, ?>, List<Object>> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8097803364413339322L;
+
+	/**
 	 * 列数/行数の上限なし
 	 */
 	public static final int UNLIMITED = Integer.MAX_VALUE;

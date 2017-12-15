@@ -12,6 +12,11 @@ import com.purejadeite.genee.definition.table.cell.TableCellDefinitionInterface;
 public class StaticTableCellContent extends AbstractTableCellContent<TableCellDefinitionInterface<?, ?>> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2833254856847677971L;
+
+	/**
 	 * コンストラクタ
 	 * @param parent 親コンテンツ
 	 * @param definition 定義

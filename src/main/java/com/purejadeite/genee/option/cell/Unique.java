@@ -16,6 +16,11 @@ import com.purejadeite.genee.definition.DefinitionInterface;
 public class Unique extends AbstractListCellOption {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1855654317938783557L;
+
+	/**
 	 * コンストラクタ
 	 * @param config コンバーターのコンフィグ
 	 */

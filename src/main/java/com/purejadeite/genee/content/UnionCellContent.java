@@ -13,6 +13,11 @@ import com.purejadeite.util.collection.Table;
 public class UnionCellContent extends CellContent {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3836554000805689613L;
+
+	/**
 	 * コンストラクタ
 	 * @param parent 親コンテンツ
 	 * @param definition 定義

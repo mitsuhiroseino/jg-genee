@@ -13,6 +13,11 @@ import com.purejadeite.genee.definition.DefinitionInterface;
 public class First extends AbstractPositionCellOption {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8792708433474720044L;
+
+	/**
 	 * コンストラクタ
 	 *
 	 * @param cell

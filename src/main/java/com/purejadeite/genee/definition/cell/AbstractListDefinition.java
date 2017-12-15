@@ -14,6 +14,11 @@ abstract public class AbstractListDefinition
 		extends AbstractCellDefinition<ParentDefinitionInterface<?, ?>, List<Object>> {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3639151207713949944L;
+
+	/**
 	 * コンストラクタ
 	 *
 	 * @param parent
